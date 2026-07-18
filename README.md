@@ -216,15 +216,16 @@ My study notes and key concepts for Security+
 ### 4.6 Explain the importance of digital forensics
 
 **Forensic Concepts**
-- Order of volatility
-  1. **CPU Registers and Cache:** The most volatile data, lasting only nanoseconds.
-  2. **Routing Tables, ARP Cache, Process Tables, Kernel Statistics:** Dynamic runtime data that changes with system activity.
-  3. **Memory (RAM):** Contains active processes, open files, and network connections; lost immediately upon power down.
-  4. **Temporary File Systems:** Includes swap files and temporary internet files.
-  5. **Disk Storage:** Hard drives and SSDs, which retain data but can still be overwritten.
-  6. **Remote Logging and Monitoring Data:** Centralized logs stored on external servers.
-  7. **Physical Configuration and Network Topology:** Hardware specs and network diagrams.
-  8. **Archival Media:** Long-term backups like tapes or off-site drives, which are the least volatile. 
+
+- **Order of Volatility (Memory)** The order in which you should collect evidence during a forensic investigation (most volatile first):
+1. **CPU Registers and Cache** — Fastest and most volatile data
+2. **Routing Tables** — Network routing information
+3. **RAM (Random Access Memory)** — Running processes and data in memory
+4. **Swap / Page File** — Data swapped to disk when RAM is full
+5. **Hard Drive / SSD** — Persistent storage (least volatile)
+6. **Removable Media** — USB drives, external storage
+7. **Logs and Backups** — Archived data
+> **Tip**: Always collect from most volatile to least volatile to avoid losing evidence.
 - Data acquisition
 - Hashing for integrity
 - Legal considerations
