@@ -99,7 +99,7 @@ My study notes and key concepts for Security+
 
 ## Domain 3.0 - Security Architecture (18%)
 
-## 3.1 Given a scenario, apply security principles to network architecture
+### 3.1 Given a scenario, apply security principles to network architecture
 
 **Network Segmentation**
 - VLANs
@@ -108,12 +108,15 @@ My study notes and key concepts for Security+
 - Zero Trust architecture
 
 **Network Security Devices
-- Firewalls (stateful, NGFW)
+- **Firewalls**
+  - **Stateful** — Tracks the state of active connections and makes decisions based on context
+  - **Stateless** — Inspects each packet individually without tracking connection state (faster but less secure)
+  - **NGFW (Next-Generation Firewall)** — Combines traditional firewall with advanced features like application awareness, intrusion prevention, and deep packet inspection
 - Introsion Detection/Prevention Systems (IDS/IPS)
 - Web Application Firewalls (WAF)
 - Load balancers with security features
 
-## 3.2 Given a scenario, implement secure network designs
+### 3.2 Given a scenario, implement secure network designs
 
 **Secure Design Principles**
 - Defense in Depth
@@ -126,7 +129,7 @@ My study notes and key concepts for Security+
 - CASB (Cloud Access Security Broker)
 - Cloud security posture management
 
-## 3.3 Given a scenario, implement secure application designs
+### 3.3 Given a scenario, implement secure application designs
 
 **Secure Development Practices**
 - Input validation
@@ -139,7 +142,7 @@ My study notes and key concepts for Security+
  - API gateways
  - Secure authentication methods
 
-## 3.4 Given a scenario, implement secure cloud technologies
+### 3.4 Given a scenario, implement secure cloud technologies
 
 **Cloud Deployment Models**
 - Public
