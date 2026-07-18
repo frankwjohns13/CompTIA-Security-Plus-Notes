@@ -107,7 +107,7 @@ My study notes and key concepts for Security+
 - Microsegmentation
 - Zero Trust architecture
 
-**Network Security Devices
+**Network Security Devices**
 - **Firewalls**
   - **Stateful** — Tracks the state of active connections and makes decisions based on context
   - **Stateless** — Inspects each packet individually without tracking connection state (faster but less secure)
