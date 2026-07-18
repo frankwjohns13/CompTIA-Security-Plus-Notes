@@ -1,9 +1,9 @@
 # CompTIA-Security-Plus-Notes
 My study notes and key concepts for Security+
 
-##Domain 1.0 - General Security Concepts (12%)
+## Domain 1.0 - General Security Concepts (12%)
 
-###1.1 Compare and contrast various types of security controls
+### 1.1 Compare and contrast various types of security controls
 
 **Control Categories**
 - **Technical** - Firewalls, encryption, antivirus
@@ -18,7 +18,7 @@ My study notes and key concepts for Security+
 - **Deterrent** - Discourage potential attackers
 - **Compensating** - Alternative controls when primary ones aren't feasible
 
-###1.2 Summarize fundamental security concepts
+### 1.2 Summarize fundamental security concepts
 
 **CIA Triad**
 - **Confidentiality** - Encryption, access controls
