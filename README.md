@@ -97,6 +97,65 @@ My study notes and key concepts for Security+
 - Insecure direct object references
 - Broken authentication
 
+## Domain 3.0 - Security Architecture (18%)
+
+## 3.1 Given a scenario, apply security principles to network architecture
+
+**Network Segmentation**
+- VLANs
+- DMZ (Demilitarized Zone)
+- Microsegmentation
+- Zero Trust architecture
+
+**Network Security Devices
+- Firewalls (stateful, NGFW)
+- Introsion Detection/Prevention Systems (IDS/IPS)
+- Web Application Firewalls (WAF)
+- Load balancers with security features
+
+## 3.2 Given a scenario, implement secure network designs
+
+**Secure Design Principles**
+- Defense in Depth
+- Least Privilege
+- Secure by Default
+- Fail security
+
+**Cloud Security**
+- Shared responsibility model
+- CASB (Cloud Access Security Broker)
+- Cloud security posture management
+
+## 3.3 Given a scenario, implement secure application designs
+
+**Secure Development Practices**
+- Input validation
+- Secure coding
+- Code signing
+- Sandboxing
+
+ **Application Security**
+ - Web Application Firewalls
+ - API gateways
+ - Secure authentication methods
+
+## 3.4 Given a scenario, implement secure cloud technologies
+
+**Cloud Deployment Models**
+- Public
+- Private
+- Hybrid
+- Community
+
+**Cloud Service Models**
+- **IaaS** - Infrastructure as a Service
+- **PaaS** - Platform as a Service
+- **SaaS** - Software as a Service
+
+**Cloud Security Controls**
+- Encryption
+- Identity and Access Management (IAM)
+- Loggin and monitoring
 
 
 
