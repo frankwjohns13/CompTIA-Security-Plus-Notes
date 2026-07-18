@@ -160,9 +160,121 @@ My study notes and key concepts for Security+
 - Identity and Access Management (IAM)
 - Loggin and monitoring
 
+## Domain 4.0 - Security Operations (28%)
 
+### 4.1 Given a scenario, perform vulnerability management activities
 
+**Vulnerability Managment**
+- Scanning (authenticated vs non-authenticated)
+- Vulnerability assessment
+- Remediation
+- Patch management
+- Compensating controls
 
+**Common Tools**
+- Vulnerability scanners
+- SIEM
+- SOAR
+
+### 4.2 Given a scenario, assess vulnerabilities
+
+**Common Vulnerabilities**
+- Misconfigurations
+- Unpatched systems
+- Weak passwords
+- Default credentials
+- Open ports/services
+
+### 4.3 Given a scenario, use security information and event management (SIEM)
+**SIEM Capabilities**
+- Log aggregation
+- Correlation
+- Alerting
+- Dashboards
+- Forensics
+
+### 4.4 Explain the importance of incident response
+
+**Incident Response Process**
+- Preparation
+- Identification
+- Containment
+- Eradication
+- Recovery
+- Lessons learned
+
+### 4.5 Given a scenario, apply incident response procedures
+
+**Incident Response Teams**
+- CSIRT (Computer Securit5y Incident Response Team)
+- Roles and responsibilities
+
+**Evidence Handling**
+- Chain of Custody
+- Forensic best practices
+
+### 4.6 Explain the importance of digital forensics
+
+**Forensic Concepts**
+- Order of volatility
+  - **CPU Registers and Cache:** The most volatile data, lasting only nanoseconds.
+  - **Routing Tables, ARP Cache, Process Tables, Kernel Statistics:** Dynamic runtime data that changes with system activity.
+  - **Memory (RAM):** Contains active processes, open files, and network connections; lost immediately upon power down.
+  - **Temporary File Systems:** Includes swap files and temporary internet files.
+  - **Disk Storage:** Hard drives and SSDs, which retain data but can still be overwritten.
+  - **Remote Logging and Monitoring Data:** Centralized logs stored on external servers.
+  - **Physical Configuration and Network Topology:** Hardware specs and network diagrams.
+  - **Archival Media:** Long-term backups like tapes or off-site drives, which are the least volatile. 
+- Data acquisition
+- Hashing for integrity
+- Legal considerations
+
+## Domain 5.0 - Security Program Management and Oversight (18%)
+
+### 5.1 Summarize effective security governance concepts
+
+**Governance**
+- Policies, standards, procedures, guidelines
+- Compliance and regulatory requirements
+- Risk management
+- Security awareness training
+
+### 5.2 Explain the importance of security awareness and training
+
+**Security Awareness**
+- Phishing simulations
+- Social engineering awareness
+- Password hygiene
+
+**Training Topics**
+- Acceptable Use Policy (AUP)
+- Incident reporting
+- Physical security
+- Mobile device security
+
+### 5.3 Explain the importance of governance, risk, and compliance concepts
+
+**Governance, Risk, and Compliance (GRC)**
+- Risk assessment and management
+- Compliance frameworks
+- Third-party risk management
+- Vendor due diligence
+
+### 5.4 Explain the importance of data privacy and data protection
+
+**Data Privacy**
+- GDPR, CCPA, HIPPA
+- Data classification
+- Data retention and disposal
+- Privacy impact assessments
+
+### 5.5 Given a scenario, perform data loss prevention activities
+
+**Data Loss Prevention (DLP)**
+- Monitoring and blocking sensitive data
+- Endpoint DLP
+- Network DLP
+- Email DLP
 
 
 ## Website
