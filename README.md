@@ -218,7 +218,7 @@ My study notes and key concepts for Security+
 **Forensic Concepts**
 
 - **Order of Volatility (Memory)** The order in which you should collect evidence during a forensic investigation (most volatile first):
-  1. **CPU Registers and Cache** — Fastest and most volatile data
+- 1. **CPU Registers and Cache** — Fastest and most volatile data
   2. **Routing Tables** — Network routing information
   3. **RAM (Random Access Memory)** — Running processes and data in memory
   4. **Swap / Page File** — Data swapped to disk when RAM is full
