@@ -1,4 +1,7 @@
-# CompTIA-Security-Plus-Notes
+![CompTIA Security+ Badge](https://images.credly.com/size/340x340/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob)
+
+# <div style="text-align: center;">CompTIA Security+ (N10-009) Notes</div>
+
 My study notes and key concepts for Security+
 
 ## Domain 1.0 - General Security Concepts (12%)
