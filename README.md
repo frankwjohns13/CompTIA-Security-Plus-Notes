@@ -1,4 +1,6 @@
+<!--
 ![CompTIA Security+ Badge](https://images.credly.com/size/340x340/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob)
+-->
 
 # <div style="text-align: center;">CompTIA Security+ (SY0-701) Notes</div>
 
@@ -279,5 +281,10 @@ My study notes and key concepts for Security+
 - Email DLP
 
 
+## Notes Index
+[View Notes Index](https://github.com/frankwjohns13/frankwjohns13.github.io)
+
 ## Website
 [View website](https://frankwjohns13.github.io/)
+
+<!-- End of File -->
